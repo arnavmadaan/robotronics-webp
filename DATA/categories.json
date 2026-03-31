@@ -1,0 +1,14 @@
+[
+  {
+    "id": "line_follower",
+    "name": "Line Follower Robot",
+    "description": "Robot that follows a predefined path using sensors",
+    "recommended_parts": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": "obstacle_avoidance",
+    "name": "Obstacle Avoidance Robot",
+    "description": "Robot that detects and avoids obstacles",
+    "recommended_parts": [1, 2, 3, 6, 7]
+  }
+]
