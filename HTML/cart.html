@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ROBOTRONICS | Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="cart-icon" onclick="window.location.href='cart.html'">
+    🛒 <span id="cart-count">0</span>
+  </div>
+  <h1>Your Cart</h1>
+</header>
+
+<main>
+  <ul id="cart-items"></ul>
+  <h3 id="total-price"></h3>
+  <button onclick="clearCart()">Clear Cart</button>
+</main>
+
+<script src="js/cartSystem.js"></script>
+<script src="js/cart.js"></script>
+ 
+</body>
+</html>
