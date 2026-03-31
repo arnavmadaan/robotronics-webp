@@ -1,0 +1,78 @@
+[
+  {
+    "product_id": 1,
+    "seller": "Seller A",
+    "prices": [
+      { "date": "2024-01-01", "price": 550 },
+      { "date": "2024-02-01", "price": 530 },
+      { "date": "2024-03-01", "price": 520 }
+    ]
+  },
+  {
+    "product_id": 1,
+    "seller": "Seller B",
+    "prices": [
+      { "date": "2024-01-01", "price": 560 },
+      { "date": "2024-02-01", "price": 545 },
+      { "date": "2024-03-01", "price": 525 }
+    ]
+  },
+
+  {
+    "product_id": 2,
+    "seller": "Seller A",
+    "prices": [
+      { "date": "2024-01-01", "price": 90 },
+      { "date": "2024-02-01", "price": 85 },
+      { "date": "2024-03-01", "price": 80 }
+    ]
+  },
+  {
+    "product_id": 2,
+    "seller": "Seller B",
+    "prices": [
+      { "date": "2024-01-01", "price": 95 },
+      { "date": "2024-02-01", "price": 88 },
+      { "date": "2024-03-01", "price": 82 }
+    ]
+  },
+
+  {
+    "product_id": 3,
+    "seller": "Seller A",
+    "prices": [
+      { "date": "2024-01-01", "price": 120 },
+      { "date": "2024-02-01", "price": 115 },
+      { "date": "2024-03-01", "price": 110 }
+    ]
+  },
+  {
+    "product_id": 3,
+    "seller": "Seller B",
+    "prices": [
+      { "date": "2024-01-01", "price": 125 },
+      { "date": "2024-02-01", "price": 118 },
+      { "date": "2024-03-01", "price": 112 }
+    ]
+  },
+
+  {
+    "product_id": 4,
+    "seller": "Seller A",
+    "prices": [
+      { "date": "2024-01-01", "price": 210 },
+      { "date": "2024-02-01", "price": 205 },
+      { "date": "2024-03-01", "price": 195 }
+    ]
+  },
+  {
+    "product_id": 4,
+    "seller": "Seller B",
+    "prices": [
+      { "date": "2024-01-01", "price": 220 },
+      { "date": "2024-02-01", "price": 210 },
+      { "date": "2024-03-01", "price": 200 }
+    ]
+  }
+]
+

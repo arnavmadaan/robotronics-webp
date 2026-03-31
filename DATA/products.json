@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Arduino UNO",
+    "category": "Controller"
+  },
+  {
+    "id": 2,
+    "name": "IR Sensor",
+    "category": "Sensor"
+  },
+  {
+    "id": 3,
+    "name": "BO Motor",
+    "category": "Motor"
+  },
+  {
+    "id": 4,
+    "name": "L298N Motor Driver",
+    "category": "Driver"
+  },
+  {
+    "id": 5,
+    "name": "Robot Chassis",
+    "category": "Mechanical"
+  },
+  {
+    "id": 6,
+    "name": "Ultrasonic Sensor",
+    "category": "Sensor"
+  },
+  {
+    "id": 7,
+    "name": "Motor Wheels",
+    "category": "Mechanical"
+  }
+]
