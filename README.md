@@ -1,4 +1,4 @@
-# Robotronics
+# Robotronics 🤖
 
 A comprehensive web platform for exploring, comparing, and tracking robotics components. Robotronics helps hobbyists and engineers find the best prices, compare technical specifications, and estimate project costs.
 
@@ -61,31 +61,3 @@ robotronics-webp/
 ```
 
 ---
-
-## Getting Started
-
-### Prerequisites
-A modern web browser (Chrome, Firefox, Edge, or Safari).
-
-### Local Execution
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/arnavmadaan/robotronics-webp.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd robotronics-webp
-   ```
-3. Open `index.html` in your browser or use a local server like Live Server (VS Code extension).
-
----
-
-## Deployment
-
-This project is optimized for deployment on **GitHub Pages**. Since all HTML files reside in the root directory, no additional configuration is required. Simply enable GitHub Pages in the repository settings to host the application.
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
