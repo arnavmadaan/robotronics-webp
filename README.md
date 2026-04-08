@@ -2,7 +2,7 @@
 
 A comprehensive web platform for exploring, comparing, and tracking robotics components. Robotronics helps hobbyists and engineers find the best prices, compare technical specifications, and estimate project costs.
 
-**Github Repository:** [https://github.com/arnavmadaan/robotronics-webp](https://github.com/arnavmadaan/robotronics-webp)
+**Website Link:** [Robotronics](https://arnavmadaan.github.io/robotronics-webp/index.html)
 
 ---
 
