@@ -4,11 +4,11 @@ const productId = parseInt(params.get("id"));
 let products = [];
 let prices = [];
 
-fetch("data/products.json")
+fetch("../DATA/products.json")
   .then(res => res.json())
   .then(prodData => {
     products = prodData;
-    return fetch("data/prices.json");
+    return fetch("../DATA/prices.json");
   })
   .then(res => res.json())
   .then(priceData => {

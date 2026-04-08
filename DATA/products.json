@@ -1,37 +1,457 @@
 [
   {
     "id": 1,
-    "name": "Arduino UNO",
-    "category": "Controller"
+    "name": "Arduino UNO R3",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "ATmega328P-based microcontroller board with 14 digital I/O pins, 6 analog inputs, USB connection"
   },
   {
     "id": 2,
-    "name": "IR Sensor",
-    "category": "Sensor"
+    "name": "TCRT5000 IR Sensor",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "Reflective optical sensor with transistor output for line following and proximity detection"
   },
   {
     "id": 3,
-    "name": "BO Motor",
-    "category": "Motor"
+    "name": "Johnson DC Motor (Grade A)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "High-torque 12V DC motor, 100RPM, used in robotics and automation projects"
   },
   {
     "id": 4,
-    "name": "L298N Motor Driver",
-    "category": "Driver"
+    "name": "L298N Dual Motor Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "Dual H-bridge motor driver supporting up to 2A per channel, drives 2 DC motors or 1 stepper"
   },
   {
     "id": 5,
-    "name": "Robot Chassis",
-    "category": "Mechanical"
+    "name": "4WD Robot Chassis Kit",
+    "category": "Mechanical",
+    "subcategory": "Chassis & Frames",
+    "description": "Acrylic 4-wheel drive chassis with mounting holes, includes 4 BO motors and wheels"
   },
   {
     "id": 6,
-    "name": "Ultrasonic Sensor",
-    "category": "Sensor"
+    "name": "HC-SR04 Ultrasonic Sensor",
+    "category": "Sensor",
+    "subcategory": "Distance Sensors",
+    "description": "Measures distance from 2cm to 400cm using ultrasonic pulses, 3mm accuracy"
   },
   {
     "id": 7,
-    "name": "Motor Wheels",
-    "category": "Mechanical"
+    "name": "Mecanum Wheels (60mm, Set of 4)",
+    "category": "Mechanical",
+    "subcategory": "Wheels & Tracks",
+    "description": "Omnidirectional mecanum wheel set for holonomic drive robots, 60mm diameter"
+  },
+  {
+    "id": 8,
+    "name": "SG90 Micro Servo Motor",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "9g micro servo with 1.8kg·cm torque, 180° rotation, ideal for small robotics projects"
+  },
+  {
+    "id": 9,
+    "name": "MG996R Metal Gear Servo",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "High-torque 11kg·cm digital servo with metal gears, 180° rotation, stall current 2.5A"
+  },
+  {
+    "id": 10,
+    "name": "3D Printed Robotic Arm Links (5DOF)",
+    "category": "Mechanical",
+    "subcategory": "Chassis & Frames",
+    "description": "PLA 3D-printed arm link set for 5-axis robotic arm, compatible with MG996R servos"
+  },
+  {
+    "id": 11,
+    "name": "SpeedyBee F405 V4 Flight Controller",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "STM32F405 FC with built-in OSD, barometer, blackbox, supports Betaflight/iNav"
+  },
+  {
+    "id": 12,
+    "name": "A2212 1000KV Brushless Motor",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Outrunner brushless motor for quadcopters, 1000KV, max thrust ~800g, compatible with 10\" props"
+  },
+  {
+    "id": 13,
+    "name": "SimonK 30A ESC",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "30A electronic speed controller with SimonK firmware, BEC 5V/3A output"
+  },
+  {
+    "id": 14,
+    "name": "Propeller Set 1045 (10x4.5)",
+    "category": "Mechanical",
+    "subcategory": "Propellers",
+    "description": "ABS propeller pair (CW + CCW), 10-inch diameter, 4.5-inch pitch, self-locking"
+  },
+  {
+    "id": 15,
+    "name": "Tattu 3S 2200mAh 25C LiPo Battery",
+    "category": "Power",
+    "subcategory": "Batteries & Power",
+    "description": "11.1V 3-cell lithium polymer battery, 25C discharge, XT60 connector"
+  },
+  {
+    "id": 16,
+    "name": "MS5837-30BA Depth Pressure Sensor",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "High-resolution pressure sensor for underwater depth measurement, I2C, 0-30 bar range"
+  },
+  {
+    "id": 17,
+    "name": "Blue Robotics Watertight Enclosure (4\")",
+    "category": "Mechanical",
+    "subcategory": "Enclosures",
+    "description": "4-inch diameter acrylic tube enclosure rated to 100m depth for underwater electronics"
+  },
+  {
+    "id": 18,
+    "name": "u-blox NEO-6M GPS Module",
+    "category": "Sensor",
+    "subcategory": "Navigation Sensors",
+    "description": "GPS receiver with ceramic antenna, UART interface, 2.5m accuracy, 5Hz update rate"
+  },
+  {
+    "id": 19,
+    "name": "TCRT5000 5-Channel Sensor Array",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "5-channel IR reflectance sensor array for line following robots, analog + digital output"
+  },
+  {
+    "id": 20,
+    "name": "PCA9685 16-Channel Servo Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "I2C 16-channel PWM driver board, 12-bit resolution, drives up to 16 servos"
+  },
+  {
+    "id": 21,
+    "name": "Nema 17 Stepper Motor (42BYGHW811)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "1.8° step angle bipolar stepper, 1.7A, 40Ncm holding torque, widely used in CNC and 3D printers"
+  },
+  {
+    "id": 22,
+    "name": "TT Gear Motor (3-6V)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Plastic gear DC motor for small robots, 200RPM at 6V, lightweight and affordable"
+  },
+  {
+    "id": 23,
+    "name": "N20 Micro Gear Motor (6V 300RPM)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Miniature 12mm metal gear motor, 300RPM at 6V, 0.5kg·cm torque, encoder-compatible shaft"
+  },
+  {
+    "id": 24,
+    "name": "Nema 23 Stepper Motor (57BYGH)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "2.8A bipolar stepper, 1.26Nm holding torque, 1.8° step angle, for CNC routers and large robots"
+  },
+  {
+    "id": 25,
+    "name": "Coreless DC Motor 8520 (3.7V)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "8.5×20mm coreless motor for micro drones, 53000RPM no-load, ultra-lightweight 4g"
+  },
+  {
+    "id": 26,
+    "name": "Arduino Nano V3 (ATmega328P)",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "Compact Arduino board with Mini-USB, 14 digital I/O, breadboard-friendly form factor"
+  },
+  {
+    "id": 27,
+    "name": "Raspberry Pi Pico W",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "RP2040 dual-core ARM Cortex-M0+ with WiFi + Bluetooth, 264KB SRAM, MicroPython support"
+  },
+  {
+    "id": 28,
+    "name": "ESP32-WROOM-32 DevKit",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "Dual-core 240MHz MCU with WiFi + BLE, 34 GPIO, 520KB SRAM, ideal for IoT robotics"
+  },
+  {
+    "id": 29,
+    "name": "STM32F103C8T6 Blue Pill",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "ARM Cortex-M3 72MHz MCU, 64KB flash, 20KB SRAM, excellent for real-time motor control"
+  },
+  {
+    "id": 30,
+    "name": "NVIDIA Jetson Nano 4GB Developer Kit",
+    "category": "Controller",
+    "subcategory": "Boards",
+    "description": "128-core Maxwell GPU + quad-core ARM A57, 4GB RAM, for AI/ML robotics and computer vision"
+  },
+  {
+    "id": 31,
+    "name": "L293D Motor Driver Shield (for Arduino)",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "Stackable shield driving 4 DC motors or 2 steppers + 2 servos, 600mA per channel"
+  },
+  {
+    "id": 32,
+    "name": "TB6612FNG Dual Motor Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "MOSFET H-bridge driver, 1.2A continuous per channel, more efficient than L298N, 3.3V/5V logic"
+  },
+  {
+    "id": 33,
+    "name": "A4988 Stepper Motor Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "Microstepping driver (up to 1/16 step), adjustable current up to 2A, with heatsink"
+  },
+  {
+    "id": 34,
+    "name": "DRV8825 Stepper Motor Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "1/32 microstepping driver, 2.5A peak current, low-noise operation, drop-in A4988 replacement"
+  },
+  {
+    "id": 35,
+    "name": "BTS7960 43A Motor Driver Module",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "High-power full H-bridge driver, 43A peak current, PWM speed control, for large DC motors"
+  },
+  {
+    "id": 36,
+    "name": "QRE1113 Reflectance Sensor (Analog)",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "Miniature analog reflectance sensor, 5mm detection range, for line detection and edge sensing"
+  },
+  {
+    "id": 37,
+    "name": "Sharp GP2Y0A21YK IR Distance Sensor",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "Analog IR distance sensor, 10-80cm range, triangulation-based, good for obstacle detection"
+  },
+  {
+    "id": 38,
+    "name": "FC-51 IR Obstacle Avoidance Sensor",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "Digital IR proximity sensor with adjustable range (2-30cm), onboard potentiometer"
+  },
+  {
+    "id": 39,
+    "name": "TSOP1738 IR Receiver Module",
+    "category": "Sensor",
+    "subcategory": "IR Sensors",
+    "description": "38KHz infrared receiver for remote control applications, 3-pin output, 45m range"
+  },
+  {
+    "id": 40,
+    "name": "50mm 12V Linear Actuator (750N)",
+    "category": "Actuator",
+    "subcategory": "Actuators",
+    "description": "Electric linear actuator, 50mm stroke, 750N push force, 12V DC, 10mm/s speed"
+  },
+  {
+    "id": 41,
+    "name": "12V Pneumatic Solenoid Valve (2-Way)",
+    "category": "Actuator",
+    "subcategory": "Actuators",
+    "description": "Normally closed 2-way solenoid valve, 1/4\" thread, for pneumatic gripper systems"
+  },
+  {
+    "id": 42,
+    "name": "HS-422 Standard Servo Motor",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Hitec standard analog servo, 4.1kg·cm torque, 0.16s/60° speed, nylon gears"
+  },
+  {
+    "id": 43,
+    "name": "HS-805BB Giant Scale Servo",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Hitec giant servo, 19.8kg·cm torque, for large-scale robots, nylon gears, 152g weight"
+  },
+  {
+    "id": 44,
+    "name": "25GA-370 DC Gear Motor (12V 150RPM)",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "25mm metal gearbox DC motor, 150RPM at 12V, 5kg·cm torque, 6mm D-shaft"
+  },
+  {
+    "id": 45,
+    "name": "100mm 24V Linear Actuator (1500N)",
+    "category": "Actuator",
+    "subcategory": "Actuators",
+    "description": "Heavy-duty linear actuator, 100mm stroke, 1500N max force, 24V, for large robot platforms"
+  },
+  {
+    "id": 46,
+    "name": "Micro Relay Module (5V, 2-Channel)",
+    "category": "Actuator",
+    "subcategory": "Actuators",
+    "description": "Optocoupler-isolated 2-channel relay module, 10A/250VAC rating, Arduino-compatible"
+  },
+  {
+    "id": 47,
+    "name": "Servo Gripper Claw Kit (SG90 Compatible)",
+    "category": "Actuator",
+    "subcategory": "Actuators",
+    "description": "Mechanical gripper claw with mounting bracket, designed for SG90/MG90S servos"
+  },
+  {
+    "id": 48,
+    "name": "Intel RealSense D435 Depth Camera",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "Stereo depth camera, 1280×720 depth @ 90fps, 0.1-10m range, USB 3.0, ROS compatible"
+  },
+  {
+    "id": 49,
+    "name": "RPLiDAR A1M8 360° Laser Scanner",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "360° 2D laser scanner, 8000 samples/s, 12m range, SLAM-ready, UART interface"
+  },
+  {
+    "id": 50,
+    "name": "TFMini Plus LiDAR Module",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "Single-point ToF LiDAR, 0.1-12m range, 1000Hz sampling, UART/I2C, only 12g weight"
+  },
+  {
+    "id": 51,
+    "name": "VL53L0X Time-of-Flight Sensor",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "Laser-based ToF distance sensor, 30-2000mm range, I2C, 2.8V operation, 940nm VCSEL"
+  },
+  {
+    "id": 52,
+    "name": "VL53L1X Long-Range ToF Sensor",
+    "category": "Sensor",
+    "subcategory": "Depth Sensors",
+    "description": "Extended-range ToF sensor, up to 4m detection, I2C, field of view 27°, programmable ROI"
+  },
+  {
+    "id": 53,
+    "name": "MPU-6050 6-Axis IMU Module",
+    "category": "Sensor",
+    "subcategory": "Navigation Sensors",
+    "description": "3-axis gyroscope + 3-axis accelerometer, I2C, DMP onboard, for balancing and orientation"
+  },
+  {
+    "id": 54,
+    "name": "BMP280 Barometric Pressure Sensor",
+    "category": "Sensor",
+    "subcategory": "Navigation Sensors",
+    "description": "Precision pressure/temperature sensor for altitude measurement, I2C/SPI, ±1hPa accuracy"
+  },
+  {
+    "id": 55,
+    "name": "HMC5883L Digital Compass Module",
+    "category": "Sensor",
+    "subcategory": "Navigation Sensors",
+    "description": "3-axis magnetometer for heading detection, I2C, 1-2° accuracy, for autonomous navigation"
+  },
+  {
+    "id": 56,
+    "name": "18650 Li-Ion Battery (3.7V 3400mAh)",
+    "category": "Power",
+    "subcategory": "Batteries & Power",
+    "description": "Panasonic NCR18650B cell, 3400mAh, protected, for battery packs and portable robotics"
+  },
+  {
+    "id": 57,
+    "name": "LM2596 DC-DC Buck Converter Module",
+    "category": "Power",
+    "subcategory": "Batteries & Power",
+    "description": "Adjustable step-down voltage regulator, 1.25-35V output, 3A max, 92% efficiency"
+  },
+  {
+    "id": 58,
+    "name": "TP4056 Li-Ion Charger Module (USB-C)",
+    "category": "Power",
+    "subcategory": "Batteries & Power",
+    "description": "Single-cell lithium charger + protection, USB-C input, 1A charge current, DW01A protection IC"
+  },
+  {
+    "id": 59,
+    "name": "nRF24L01+ Wireless Transceiver (2.4GHz)",
+    "category": "Communication",
+    "subcategory": "Communication Modules",
+    "description": "2.4GHz RF transceiver, 250Kbps-2Mbps, SPI, 100m range with PA/LNA version"
+  },
+  {
+    "id": 60,
+    "name": "HC-05 Bluetooth Module",
+    "category": "Communication",
+    "subcategory": "Communication Modules",
+    "description": "Bluetooth v2.0 serial module, master/slave mode, UART, 10m range, AT command set"
+  },
+  {
+    "id": 61,
+    "name": "LoRa SX1278 433MHz Module",
+    "category": "Communication",
+    "subcategory": "Communication Modules",
+    "description": "Long-range LoRa transceiver, 10km+ range, SPI, 256-byte FIFO, for remote robotic control"
+  },
+  {
+    "id": 62,
+    "name": "Rubber Track Set (100mm wide)",
+    "category": "Mechanical",
+    "subcategory": "Wheels & Tracks",
+    "description": "Tank-style rubber track pair with drive sprockets, 100mm wide, for all-terrain rovers"
+  },
+  {
+    "id": 63,
+    "name": "Aluminum Hex Coupler (6mm to 12mm)",
+    "category": "Mechanical",
+    "subcategory": "Chassis & Frames",
+    "description": "CNC machined aluminum hub adapter, 6mm motor shaft to 12mm wheel hub, set of 4"
+  },
+  {
+    "id": 64,
+    "name": "T-Motor F1507 3800KV Brushless Motor",
+    "category": "Motor",
+    "subcategory": "Motors",
+    "description": "Racing quadcopter motor, 3800KV, 15mm stator, supports 3-4S LiPo, max thrust 680g"
+  },
+  {
+    "id": 65,
+    "name": "Cytron MDD10A Dual Channel Motor Driver",
+    "category": "Driver",
+    "subcategory": "Motor Drivers",
+    "description": "10A continuous per channel, supports 5-30V motors, sign-magnitude PWM, Arduino library available"
   }
 ]

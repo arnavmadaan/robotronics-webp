@@ -1,0 +1,520 @@
+{
+  "motors": [
+    {
+      "product_id": 3,
+      "name": "Johnson DC Motor (Grade A)",
+      "specs": {
+        "rpm": { "value": 100, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 12, "max": 48, "unit": "V" },
+        "torque": { "value": 2.5, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 120, "max": 500, "unit": "g" },
+        "current": { "value": 1.5, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 8,
+      "name": "SG90 Micro Servo Motor",
+      "specs": {
+        "rpm": { "value": 60, "max": 60000, "unit": "RPM eq." },
+        "voltage": { "value": 5, "max": 48, "unit": "V" },
+        "torque": { "value": 1.8, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 9, "max": 500, "unit": "g" },
+        "current": { "value": 0.65, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 9,
+      "name": "MG996R Metal Gear Servo",
+      "specs": {
+        "rpm": { "value": 60, "max": 60000, "unit": "RPM eq." },
+        "voltage": { "value": 6, "max": 48, "unit": "V" },
+        "torque": { "value": 11, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 55, "max": 500, "unit": "g" },
+        "current": { "value": 2.5, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 12,
+      "name": "A2212 1000KV Brushless Motor",
+      "specs": {
+        "rpm": { "value": 11100, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 11.1, "max": 48, "unit": "V" },
+        "torque": { "value": 0.8, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 47, "max": 500, "unit": "g" },
+        "current": { "value": 12, "max": 30, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 21,
+      "name": "Nema 17 Stepper Motor",
+      "specs": {
+        "rpm": { "value": 600, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 12, "max": 48, "unit": "V" },
+        "torque": { "value": 4.0, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 280, "max": 500, "unit": "g" },
+        "current": { "value": 1.7, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 22,
+      "name": "TT Gear Motor (3-6V)",
+      "specs": {
+        "rpm": { "value": 200, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 6, "max": 48, "unit": "V" },
+        "torque": { "value": 0.8, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 30, "max": 500, "unit": "g" },
+        "current": { "value": 0.25, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 23,
+      "name": "N20 Micro Gear Motor (6V 300RPM)",
+      "specs": {
+        "rpm": { "value": 300, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 6, "max": 48, "unit": "V" },
+        "torque": { "value": 0.5, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 12, "max": 500, "unit": "g" },
+        "current": { "value": 0.12, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 24,
+      "name": "Nema 23 Stepper Motor",
+      "specs": {
+        "rpm": { "value": 400, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 24, "max": 48, "unit": "V" },
+        "torque": { "value": 12.6, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 450, "max": 500, "unit": "g" },
+        "current": { "value": 2.8, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 25,
+      "name": "Coreless DC Motor 8520",
+      "specs": {
+        "rpm": { "value": 53000, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 3.7, "max": 48, "unit": "V" },
+        "torque": { "value": 0.02, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 4, "max": 500, "unit": "g" },
+        "current": { "value": 0.8, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 42,
+      "name": "HS-422 Standard Servo",
+      "specs": {
+        "rpm": { "value": 60, "max": 60000, "unit": "RPM eq." },
+        "voltage": { "value": 6, "max": 48, "unit": "V" },
+        "torque": { "value": 4.1, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 45, "max": 500, "unit": "g" },
+        "current": { "value": 0.45, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 43,
+      "name": "HS-805BB Giant Scale Servo",
+      "specs": {
+        "rpm": { "value": 40, "max": 60000, "unit": "RPM eq." },
+        "voltage": { "value": 6, "max": 48, "unit": "V" },
+        "torque": { "value": 19.8, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 152, "max": 500, "unit": "g" },
+        "current": { "value": 3.0, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 44,
+      "name": "25GA-370 DC Gear Motor",
+      "specs": {
+        "rpm": { "value": 150, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 12, "max": 48, "unit": "V" },
+        "torque": { "value": 5.0, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 90, "max": 500, "unit": "g" },
+        "current": { "value": 0.6, "max": 5, "unit": "A" }
+      }
+    },
+    {
+      "product_id": 64,
+      "name": "T-Motor F1507 3800KV",
+      "specs": {
+        "rpm": { "value": 42180, "max": 60000, "unit": "RPM" },
+        "voltage": { "value": 14.8, "max": 48, "unit": "V" },
+        "torque": { "value": 0.15, "max": 20, "unit": "kg·cm" },
+        "weight": { "value": 18, "max": 500, "unit": "g" },
+        "current": { "value": 20, "max": 30, "unit": "A" }
+      }
+    }
+  ],
+  "boards": [
+    {
+      "product_id": 1,
+      "name": "Arduino UNO R3",
+      "specs": {
+        "clock_speed": { "value": 16, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 32, "max": 65536, "unit": "KB" },
+        "ram": { "value": 2, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 14, "max": 40, "unit": "pins" },
+        "voltage": { "value": 5, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 26,
+      "name": "Arduino Nano V3",
+      "specs": {
+        "clock_speed": { "value": 16, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 32, "max": 65536, "unit": "KB" },
+        "ram": { "value": 2, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 14, "max": 40, "unit": "pins" },
+        "voltage": { "value": 5, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 27,
+      "name": "Raspberry Pi Pico W",
+      "specs": {
+        "clock_speed": { "value": 133, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 2048, "max": 65536, "unit": "KB" },
+        "ram": { "value": 264, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 26, "max": 40, "unit": "pins" },
+        "voltage": { "value": 3.3, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 28,
+      "name": "ESP32-WROOM-32 DevKit",
+      "specs": {
+        "clock_speed": { "value": 240, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 4096, "max": 65536, "unit": "KB" },
+        "ram": { "value": 520, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 34, "max": 40, "unit": "pins" },
+        "voltage": { "value": 3.3, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 29,
+      "name": "STM32 Blue Pill",
+      "specs": {
+        "clock_speed": { "value": 72, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 64, "max": 65536, "unit": "KB" },
+        "ram": { "value": 20, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 32, "max": 40, "unit": "pins" },
+        "voltage": { "value": 3.3, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 30,
+      "name": "NVIDIA Jetson Nano 4GB",
+      "specs": {
+        "clock_speed": { "value": 1430, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 65536, "max": 65536, "unit": "KB" },
+        "ram": { "value": 4096, "max": 4096, "unit": "MB" },
+        "gpio": { "value": 40, "max": 40, "unit": "pins" },
+        "voltage": { "value": 5, "max": 12, "unit": "V" }
+      }
+    },
+    {
+      "product_id": 11,
+      "name": "SpeedyBee F405 V4 FC",
+      "specs": {
+        "clock_speed": { "value": 168, "max": 1500, "unit": "MHz" },
+        "flash": { "value": 1024, "max": 65536, "unit": "KB" },
+        "ram": { "value": 192, "max": 4096, "unit": "KB" },
+        "gpio": { "value": 12, "max": 40, "unit": "pins" },
+        "voltage": { "value": 5, "max": 12, "unit": "V" }
+      }
+    }
+  ],
+  "motor_drivers": [
+    {
+      "product_id": 4,
+      "name": "L298N Dual Motor Driver",
+      "specs": {
+        "channels": { "value": 2, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 2, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 35, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 60, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 13,
+      "name": "SimonK 30A ESC",
+      "specs": {
+        "channels": { "value": 1, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 30, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 16.8, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 95, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 20,
+      "name": "PCA9685 16-Ch Servo Driver",
+      "specs": {
+        "channels": { "value": 16, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 0.4, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 6, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 90, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 31,
+      "name": "L293D Motor Driver Shield",
+      "specs": {
+        "channels": { "value": 4, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 0.6, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 25, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 55, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 32,
+      "name": "TB6612FNG Dual Driver",
+      "specs": {
+        "channels": { "value": 2, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 1.2, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 13.5, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 91, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 33,
+      "name": "A4988 Stepper Driver",
+      "specs": {
+        "channels": { "value": 1, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 2, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 35, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 85, "max": 100, "unit": "%" },
+        "microstepping": { "value": 16, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 34,
+      "name": "DRV8825 Stepper Driver",
+      "specs": {
+        "channels": { "value": 1, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 2.5, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 45, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 88, "max": 100, "unit": "%" },
+        "microstepping": { "value": 32, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 35,
+      "name": "BTS7960 43A Driver",
+      "specs": {
+        "channels": { "value": 1, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 43, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 27, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 92, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    },
+    {
+      "product_id": 65,
+      "name": "Cytron MDD10A Dual Driver",
+      "specs": {
+        "channels": { "value": 2, "max": 16, "unit": "ch" },
+        "current_per_ch": { "value": 10, "max": 43, "unit": "A" },
+        "voltage_range": { "value": 30, "max": 50, "unit": "V max" },
+        "efficiency": { "value": 93, "max": 100, "unit": "%" },
+        "microstepping": { "value": 1, "max": 32, "unit": "x" }
+      }
+    }
+  ],
+  "ir_sensors": [
+    {
+      "product_id": 2,
+      "name": "TCRT5000 IR Sensor",
+      "specs": {
+        "range": { "value": 15, "max": 800, "unit": "mm" },
+        "response_time": { "value": 0.01, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 1, "max": 2, "unit": "Analog" },
+        "wavelength": { "value": 950, "max": 1100, "unit": "nm" }
+      }
+    },
+    {
+      "product_id": 19,
+      "name": "TCRT5000 5-Channel Array",
+      "specs": {
+        "range": { "value": 15, "max": 800, "unit": "mm" },
+        "response_time": { "value": 0.01, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 2, "max": 2, "unit": "Both" },
+        "wavelength": { "value": 950, "max": 1100, "unit": "nm" }
+      }
+    },
+    {
+      "product_id": 36,
+      "name": "QRE1113 Reflectance Sensor",
+      "specs": {
+        "range": { "value": 5, "max": 800, "unit": "mm" },
+        "response_time": { "value": 0.005, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 1, "max": 2, "unit": "Analog" },
+        "wavelength": { "value": 940, "max": 1100, "unit": "nm" }
+      }
+    },
+    {
+      "product_id": 37,
+      "name": "Sharp GP2Y0A21YK Distance Sensor",
+      "specs": {
+        "range": { "value": 800, "max": 800, "unit": "mm" },
+        "response_time": { "value": 39, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 1, "max": 2, "unit": "Analog" },
+        "wavelength": { "value": 870, "max": 1100, "unit": "nm" }
+      }
+    },
+    {
+      "product_id": 38,
+      "name": "FC-51 IR Obstacle Sensor",
+      "specs": {
+        "range": { "value": 300, "max": 800, "unit": "mm" },
+        "response_time": { "value": 2, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 0, "max": 2, "unit": "Digital" },
+        "wavelength": { "value": 940, "max": 1100, "unit": "nm" }
+      }
+    },
+    {
+      "product_id": 39,
+      "name": "TSOP1738 IR Receiver",
+      "specs": {
+        "range": { "value": 45000, "max": 50000, "unit": "mm" },
+        "response_time": { "value": 0.5, "max": 50, "unit": "ms" },
+        "voltage": { "value": 5, "max": 6, "unit": "V" },
+        "output_type": { "value": 0, "max": 2, "unit": "Digital" },
+        "wavelength": { "value": 980, "max": 1100, "unit": "nm" }
+      }
+    }
+  ],
+  "actuators": [
+    {
+      "product_id": 40,
+      "name": "50mm Linear Actuator (750N)",
+      "specs": {
+        "force": { "value": 750, "max": 1500, "unit": "N" },
+        "stroke": { "value": 50, "max": 200, "unit": "mm" },
+        "speed": { "value": 10, "max": 25, "unit": "mm/s" },
+        "voltage": { "value": 12, "max": 24, "unit": "V" },
+        "weight": { "value": 320, "max": 1000, "unit": "g" }
+      }
+    },
+    {
+      "product_id": 41,
+      "name": "Pneumatic Solenoid Valve (2-Way)",
+      "specs": {
+        "force": { "value": 100, "max": 1500, "unit": "N" },
+        "stroke": { "value": 0, "max": 200, "unit": "mm" },
+        "speed": { "value": 25, "max": 25, "unit": "mm/s" },
+        "voltage": { "value": 12, "max": 24, "unit": "V" },
+        "weight": { "value": 85, "max": 1000, "unit": "g" }
+      }
+    },
+    {
+      "product_id": 45,
+      "name": "100mm Linear Actuator (1500N)",
+      "specs": {
+        "force": { "value": 1500, "max": 1500, "unit": "N" },
+        "stroke": { "value": 100, "max": 200, "unit": "mm" },
+        "speed": { "value": 5, "max": 25, "unit": "mm/s" },
+        "voltage": { "value": 24, "max": 24, "unit": "V" },
+        "weight": { "value": 650, "max": 1000, "unit": "g" }
+      }
+    },
+    {
+      "product_id": 46,
+      "name": "Micro Relay Module (5V, 2-Ch)",
+      "specs": {
+        "force": { "value": 0, "max": 1500, "unit": "N" },
+        "stroke": { "value": 0, "max": 200, "unit": "mm" },
+        "speed": { "value": 15, "max": 25, "unit": "mm/s" },
+        "voltage": { "value": 5, "max": 24, "unit": "V" },
+        "weight": { "value": 30, "max": 1000, "unit": "g" }
+      }
+    },
+    {
+      "product_id": 47,
+      "name": "Servo Gripper Claw Kit",
+      "specs": {
+        "force": { "value": 18, "max": 1500, "unit": "N" },
+        "stroke": { "value": 55, "max": 200, "unit": "mm" },
+        "speed": { "value": 20, "max": 25, "unit": "mm/s" },
+        "voltage": { "value": 5, "max": 24, "unit": "V" },
+        "weight": { "value": 45, "max": 1000, "unit": "g" }
+      }
+    }
+  ],
+  "depth_sensors": [
+    {
+      "product_id": 16,
+      "name": "MS5837-30BA Pressure Sensor",
+      "specs": {
+        "range": { "value": 300, "max": 12000, "unit": "m" },
+        "resolution": { "value": 0.2, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 99.8, "max": 100, "unit": "%" },
+        "update_rate": { "value": 100, "max": 1000, "unit": "Hz" },
+        "interface": { "value": 1, "max": 3, "unit": "I2C" }
+      }
+    },
+    {
+      "product_id": 48,
+      "name": "Intel RealSense D435",
+      "specs": {
+        "range": { "value": 10000, "max": 12000, "unit": "mm" },
+        "resolution": { "value": 1, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 98, "max": 100, "unit": "%" },
+        "update_rate": { "value": 90, "max": 1000, "unit": "fps" },
+        "interface": { "value": 3, "max": 3, "unit": "USB 3.0" }
+      }
+    },
+    {
+      "product_id": 49,
+      "name": "RPLiDAR A1M8 360° Scanner",
+      "specs": {
+        "range": { "value": 12000, "max": 12000, "unit": "mm" },
+        "resolution": { "value": 1, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 97, "max": 100, "unit": "%" },
+        "update_rate": { "value": 1000, "max": 1000, "unit": "Hz" },
+        "interface": { "value": 2, "max": 3, "unit": "UART" }
+      }
+    },
+    {
+      "product_id": 50,
+      "name": "TFMini Plus LiDAR",
+      "specs": {
+        "range": { "value": 12000, "max": 12000, "unit": "mm" },
+        "resolution": { "value": 5, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 96, "max": 100, "unit": "%" },
+        "update_rate": { "value": 1000, "max": 1000, "unit": "Hz" },
+        "interface": { "value": 2, "max": 3, "unit": "UART/I2C" }
+      }
+    },
+    {
+      "product_id": 51,
+      "name": "VL53L0X ToF Sensor",
+      "specs": {
+        "range": { "value": 2000, "max": 12000, "unit": "mm" },
+        "resolution": { "value": 1, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 95, "max": 100, "unit": "%" },
+        "update_rate": { "value": 50, "max": 1000, "unit": "Hz" },
+        "interface": { "value": 1, "max": 3, "unit": "I2C" }
+      }
+    },
+    {
+      "product_id": 52,
+      "name": "VL53L1X Long-Range ToF",
+      "specs": {
+        "range": { "value": 4000, "max": 12000, "unit": "mm" },
+        "resolution": { "value": 1, "max": 10, "unit": "mm" },
+        "accuracy": { "value": 96, "max": 100, "unit": "%" },
+        "update_rate": { "value": 50, "max": 1000, "unit": "Hz" },
+        "interface": { "value": 1, "max": 3, "unit": "I2C" }
+      }
+    }
+  ]
+}

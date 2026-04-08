@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBOTRONICS | Build Calculator</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="cart-icon" onclick="window.location.href='cart.html'">
+      🛒 <span id="cart-count">0</span>
+    </div>
+    <a href="index.html" class="back-link">← Back to Home</a>
+    <h1>🧮 Build Calculator</h1>
+    <p>Select parts below to estimate total cost</p>
+  </header>
+
+  <main>
+    <div class="calc-layout">
+      <div>
+        <h2>Select Parts</h2>
+        <div id="parts-list" class="calc-parts-list"></div>
+      </div>
+      <div class="calc-summary" id="calc-summary">
+        <h3>Build Summary</h3>
+        <div id="summary-items"></div>
+        <div class="calc-summary-total" id="summary-total">
+          <span>Total</span>
+          <span>₹0</span>
+        </div>
+        <button id="add-all-to-cart" style="width:100%; margin-top:16px;">Add All to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="../JS/cartSystem.js"></script>
+  <script src="../JS/calculator.js"></script>
+
+</body>
+</html>

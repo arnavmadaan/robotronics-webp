@@ -1,4 +1,4 @@
-fetch("data/categories.json")
+fetch("../DATA/categories.json")
   .then(response => response.json()) //raw response to usable js object
   .then(categories => {
     const container = document.getElementById("categories"); //div select

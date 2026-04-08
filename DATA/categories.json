@@ -2,13 +2,61 @@
   {
     "id": "line_follower",
     "name": "Line Follower Robot",
-    "description": "Robot that follows a predefined path using sensors",
-    "recommended_parts": [1, 2, 3, 4, 5]
+    "description": "Robot that follows a predefined path using IR sensors and PID control",
+    "recommended_parts": [1, 2, 22, 4, 5, 19]
   },
   {
     "id": "obstacle_avoidance",
     "name": "Obstacle Avoidance Robot",
-    "description": "Robot that detects and avoids obstacles",
-    "recommended_parts": [1, 2, 3, 6, 7]
+    "description": "Robot that detects and avoids obstacles using ultrasonic and IR sensors",
+    "recommended_parts": [1, 6, 38, 22, 4, 5]
+  },
+  {
+    "id": "robotic_arm",
+    "name": "Robotic Arm (5-DOF)",
+    "description": "Articulated robotic arm for pick-and-place tasks with servo actuators",
+    "recommended_parts": [1, 9, 42, 20, 10, 47]
+  },
+  {
+    "id": "drone",
+    "name": "Quadcopter Drone",
+    "description": "250-class quadcopter drone for aerial robotics and FPV projects",
+    "recommended_parts": [11, 12, 13, 14, 15, 53]
+  },
+  {
+    "id": "auv",
+    "name": "AUV (Underwater Vehicle)",
+    "description": "Autonomous underwater vehicle for marine exploration and mapping",
+    "recommended_parts": [28, 16, 17, 3, 35, 54]
+  },
+  {
+    "id": "rover",
+    "name": "All-Terrain Rover",
+    "description": "4WD exploration rover with GPS navigation and obstacle avoidance",
+    "recommended_parts": [28, 3, 4, 6, 18, 62]
+  },
+  {
+    "id": "adv_line_follower",
+    "name": "Advanced Line Follower",
+    "description": "High-speed line follower with PID control, sensor array, and telemetry",
+    "recommended_parts": [26, 19, 22, 32, 5, 60]
+  },
+  {
+    "id": "humanoid",
+    "name": "Humanoid Robot (Basic)",
+    "description": "Bipedal humanoid robot with 12+ servo-actuated joints",
+    "recommended_parts": [20, 9, 43, 29, 56, 57]
+  },
+  {
+    "id": "autonomous_car",
+    "name": "Self-Driving Robot Car",
+    "description": "Camera and LiDAR-equipped autonomous car with lane detection",
+    "recommended_parts": [30, 50, 3, 65, 53, 7]
+  },
+  {
+    "id": "swarm_robot",
+    "name": "Swarm Robotics Kit",
+    "description": "Small communicating robots for swarm intelligence experiments",
+    "recommended_parts": [27, 23, 32, 59, 56, 38]
   }
 ]

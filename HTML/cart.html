@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ROBOTRONICS | Cart</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
 <header>
   <div class="cart-icon" onclick="window.location.href='cart.html'">
     🛒 <span id="cart-count">0</span>
   </div>
+  <a href="index.html" class="back-link">← Back to Home</a>
   <h1>Your Cart</h1>
 </header>
 
@@ -17,10 +19,11 @@
   <ul id="cart-items"></ul>
   <h3 id="total-price"></h3>
   <button onclick="clearCart()">Clear Cart</button>
+  <button onclick="window.location.href='checkout.html'" style="margin-left:12px; background: #3fb950;">Proceed to Checkout</button>
 </main>
 
-<script src="js/cartSystem.js"></script>
-<script src="js/cart.js"></script>
+<script src="../JS/cartSystem.js"></script>
+<script src="../JS/cart.js"></script>
  
 </body>
 </html>

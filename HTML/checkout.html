@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBOTRONICS | Checkout</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="cart.html" class="back-link">← Back to Cart</a>
+    <h1>Checkout</h1>
+  </header>
+
+  <main>
+    <h2>Order Summary</h2>
+    <ul class="checkout-items" id="checkout-items"></ul>
+
+    <div class="checkout-total" id="checkout-total">
+      <span>Total</span>
+      <span class="amount">₹0</span>
+    </div>
+
+    <div class="payment-section">
+      <label for="payment-method">Payment Method</label>
+      <select id="payment-method">
+        <option value="upi">UPI</option>
+        <option value="card">Card</option>
+        <option value="netbanking">Net Banking</option>
+      </select>
+    </div>
+
+    <button id="pay-btn">Pay Now</button>
+  </main>
+
+  <!-- Success Overlay -->
+  <div class="success-overlay" id="success-overlay">
+    <div class="success-card">
+      <div class="checkmark">✅</div>
+      <h2>Payment Successful!</h2>
+      <p>Your order has been placed. Thank you for shopping with ROBOTRONICS!</p>
+      <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+  </div>
+
+  <script src="../JS/cartSystem.js"></script>
+  <script src="../JS/checkout.js"></script>
+
+</body>
+</html>

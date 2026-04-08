@@ -1,27 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <div class="cart-icon" onclick="window.location.href='cart.html'">
-  🛒 <span id="cart-count">0</span>
-  </div>
   <meta charset="UTF-8">
-  <title>ROBOTRONICS</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBOTRONICS — Robotics Parts Hub</title>
+  <meta name="description" content="ROBOTRONICS: Compare prices, explore project kits, and find the best robotics components from top Indian sellers.">
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
 
-  <header>
-    <h1>ROBOTRONICS</h1>
-    <p>Smart Robotics Parts Marketplace</p>
-  </header>
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
 
-  <main>
-    <h2>Project Categories</h2>
-    <div id="categories" class="card-container"></div>
-  </main>
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>MENU</h2>
+      <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+    </div>
+    <ul class="sidebar-nav">
+      <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
+      <li><a href="category.html?browse=categories"><span class="nav-icon">📁</span> Project Categories</a></li>
+      <li><a href="category.html"><span class="nav-icon">🔍</span> Just Browsing</a></li>
+      <li><a href="compare.html"><span class="nav-icon">⚡</span> Compare Parts</a></li>
+      <li><a href="wishlist.html"><span class="nav-icon">❤️</span> Wishlist</a></li>
+      <li><a href="calculator.html"><span class="nav-icon">🧮</span> Build Calculator</a></li>
+      <li><a href="builds.html"><span class="nav-icon">🌐</span> Community Builds</a></li>
+      <li class="sidebar-divider"></li>
+      <li><a href="cart.html"><span class="nav-icon">🛒</span> My Cart</a></li>
+      <li><a href="#"><span class="nav-icon">📦</span> Previous Orders</a></li>
+    </ul>
+  </nav>
 
-  <script src="js/categories.js"></script>
-  <script src="js/cartSystem.js"></script>
+  <!-- Header Bar -->
+  <div class="header-bar">
+    <div class="header-left">
+      <button class="icon-btn" id="menu-btn" onclick="toggleSidebar()" aria-label="Menu">☰</button>
+    </div>
+    <div class="header-title">ROBOTRONICS</div>
+    <div class="header-right">
+      <button class="icon-btn" onclick="window.location.href='cart.html'" aria-label="Cart">🛒</button>
+      <button class="icon-btn" aria-label="Profile">👤</button>
+    </div>
+  </div>
+
+  <!-- Action Buttons -->
+  <div class="action-buttons">
+    <button class="action-btn" onclick="window.location.href='category.html?browse=categories'">Project Categories</button>
+    <button class="action-btn" onclick="window.location.href='category.html'">Just Browsing</button>
+    <button class="action-btn" onclick="window.location.href='compare.html'">Compare Parts</button>
+    <button class="action-btn" onclick="window.location.href='product.html?id=1'">Analyse &amp; Compare</button>
+  </div>
+
+  <!-- ASCII Art Display -->
+  <div class="ascii-container">
+    <pre id="ascii-art"></pre>
+  </div>
+
+  <!-- Chatbox (bottom bar, always visible) -->
+  <div class="chatbox-wrapper" id="chatbox-wrapper">
+    <div class="chat-input-row" id="chat-input-row">
+      <input type="text" id="chat-input" autocomplete="off">
+      <button class="chat-send-btn" id="chat-send" aria-label="Send">↑</button>
+    </div>
+  </div>
+
+  <!-- Chat Overlay (centered, opens on interaction) -->
+  <div class="chat-overlay-backdrop" id="chat-overlay-backdrop"></div>
+  <div class="chat-overlay" id="chat-overlay">
+    <div class="chat-overlay-header">
+      <span class="chat-overlay-title">🤖 LLM Assistant</span>
+      <button class="chat-overlay-close" id="chat-overlay-close" aria-label="Close">✕</button>
+    </div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-overlay-input-row">
+      <input type="text" id="chat-overlay-input" autocomplete="off" placeholder="Ask me anything about robotics parts...">
+      <button class="chat-send-btn" id="chat-overlay-send" aria-label="Send">↑</button>
+    </div>
+  </div>
+
+  <script src="../JS/homepage.js"></script>
+  <script src="../JS/cartSystem.js"></script>
 
 </body>
 </html>
