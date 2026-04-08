@@ -1,4 +1,4 @@
-fetch("../DATA/products.json") //loads products + read cart
+fetch("./DATA/products.json") //loads products + read cart
   .then(res => res.json())
   .then(products => {
     displayCart(products);

@@ -12,7 +12,7 @@ function saveWishlist(list) {
 
 const container = document.getElementById("wishlist-container");
 
-fetch("../DATA/products.json")
+fetch("./DATA/products.json")
   .then(r => r.json())
   .then(products => {
     renderWishlist(products);

@@ -13,8 +13,8 @@ const summaryTotal = document.getElementById("summary-total");
 
 async function loadData() {
   const [products, prices] = await Promise.all([
-    fetch("../DATA/products.json").then(r => r.json()),
-    fetch("../DATA/prices.json").then(r => r.json())
+    fetch("./DATA/products.json").then(r => r.json()),
+    fetch("./DATA/prices.json").then(r => r.json())
   ]);
   productsData = products;
   pricesData = prices;

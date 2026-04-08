@@ -11,8 +11,8 @@ const categorySelect = document.getElementById("category-select");
 
 async function loadData() {
   const [specs, products] = await Promise.all([
-    fetch("../DATA/specs.json").then(r => r.json()),
-    fetch("../DATA/products.json").then(r => r.json())
+    fetch("./DATA/specs.json").then(r => r.json()),
+    fetch("./DATA/products.json").then(r => r.json())
   ]);
   specsData = specs;
   productsData = products;

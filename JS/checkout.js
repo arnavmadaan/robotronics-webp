@@ -8,7 +8,7 @@ const checkoutTotal = document.getElementById("checkout-total");
 const payBtn = document.getElementById("pay-btn");
 const successOverlay = document.getElementById("success-overlay");
 
-fetch("../DATA/products.json")
+fetch("./DATA/products.json")
   .then(res => res.json())
   .then(products => {
     displayCheckout(products);

@@ -10,11 +10,11 @@ const browseMode = params.get("browse");
 let categoriesData = [];
 let productsData = [];
 
-fetch("../DATA/categories.json")
+fetch("./DATA/categories.json")
   .then(res => res.json())
   .then(categories => {
     categoriesData = categories;
-    return fetch("../DATA/products.json");
+    return fetch("./DATA/products.json");
   })
   .then(res => res.json())
   .then(products => {

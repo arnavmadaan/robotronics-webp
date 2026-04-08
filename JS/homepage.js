@@ -450,10 +450,10 @@ let conversationHistory = [];
 async function loadBackendData() {
   try {
     const [products, categories, prices, specs] = await Promise.all([
-      fetch("../DATA/products.json").then(r => r.json()),
-      fetch("../DATA/categories.json").then(r => r.json()),
-      fetch("../DATA/prices.json").then(r => r.json()),
-      fetch("../DATA/specs.json").then(r => r.json())
+      fetch("./DATA/products.json").then(r => r.json()),
+      fetch("./DATA/categories.json").then(r => r.json()),
+      fetch("./DATA/prices.json").then(r => r.json()),
+      fetch("./DATA/specs.json").then(r => r.json())
     ]);
     backendData = { products, categories, prices, specs };
   } catch (e) {
